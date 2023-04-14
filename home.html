@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale" />
+    <meta name="author" content=" Ajaypal singh" />
+    <meta name="description" content="My web page" />
+    <meta name="keywords" content="html, css, web development, seo" />
+
+    <title>Final-Project</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/style/home.css" media="all" />
+    <script src="./assets/script/home.js" defer></script>
+  </head>
+  <body>
+    <dialog class="dialog-error"></dialog>
+    <header>
+      <h1>getHired</h1>
+      <nav>
+        <ul class="nav-icons">
+          <li>
+            <a href="#"><i class="fa-regular fa-comments"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-handshake"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-images"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="user">
+        <h4>Ajeypal</h4>
+        <figure class="user-img">
+          <img src="assets/images/me.jpeg" height="50" />
+        </figure>
+      </div>
+    </header>
+    <main>
+      <div class="content">
+        <div class="profile-container box">
+          <figure>
+            <img src="assets/images/me.jpeg" alt="" class="profile" />
+          </figure>
+
+          <article>
+            <h3>Ajeypal Singh</h3>
+            <small> @ajeypalsingh </small>
+          </article>
+
+          <article class="profile-stats">
+            <p>
+              <span><i class="fa-solid fa-people-group"></i> 110</span>Followers
+            </p>
+            <p>
+              <span><i class="fa-solid fa-person-circle-plus"></i> 50</span>
+              Following
+            </p>
+          </article>
+
+          <div class="profile-social-links">
+            <a href="https://github.com/ajeypalsingh/"
+              ><i class="fa-brands fa-github"></i>Github
+            </a>
+          </div>
+        </div>
+        <div class="feed-container box">
+          <div class="posting">
+            <textarea
+              placeholder="What's on your mind?"
+              onfocus="this.value=''"
+              class="message"
+            ></textarea>
+            <div class="photos-music">
+              <label for="image-input">
+                <i class="fa-solid fa-image"></i>
+              </label>
+              <input id="image-input" type="file" />
+              <i class="fa-regular fa-paper-plane"></i>
+            </div>
+          </div>
+
+          <div class="feed-stream">
+            <div class="feed">
+              <div class="user-info">
+                <figure>
+                  <img src="assets/images/komal.jpeg" alt="" />
+                  <h5>komal Hundal</h5>
+                </figure>
+
+                <small class="bold gray">Fri April 13 2022, 3:46 pm</small>
+              </div>
+
+              <p>I am software developer at MITT</p>
+
+              <figure class="image-post">
+                <img src="assets/images/computer.jpg" alt="Office meeting" />
+              </figure>
+
+              <div class="likes-comments">
+                <p><i class="fa-regular fa-heart"></i> 437</p>
+                <p><i class="fa-regular fa-comments"></i> 34</p>
+                <p><i class="fa-solid fa-share"></i> Share</p>
+              </div>
+            </div>
+            <div class="feed">
+              <div class="user-info">
+                <figure>
+                  <img src="assets/images/arun.jpeg" alt="" />
+                  <h5>Arun Khakh</h5>
+                </figure>
+
+                <small class="bold gray">Fri April 13 2022, 3:46 pm</small>
+              </div>
+
+              <p>Attend Online Seminar</p>
+
+              <figure class="image-post">
+                <img src="assets/images/hire.jpg" alt="Office meeting" />
+              </figure>
+
+              <div class="likes-comments">
+                <p><i class="fa-regular fa-heart"></i> 437</p>
+                <p><i class="fa-regular fa-comments"></i> 34</p>
+                <p><i class="fa-solid fa-share"></i> Share</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="people-container box">
+          <article>
+            <h3>People you may know</h3>
+          </article>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p><a href="#">Contact us.</a></p>
+      <p>getHIRED &copy; 2022</p>
+    </footer>
+  </body>
+</html>
